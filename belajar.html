@@ -1,1 +1,136 @@
-Apres Aldi Marwan
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Blog Hijau Daun</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f4f4f4;
+        }
+
+        .navbar {
+            background-color: #2ecc71;
+        }
+
+        .navbar-dark .navbar-toggler-icon {
+            background-color: #fff;
+        }
+
+        .navbar-dark .navbar-nav .nav-link {
+            color: #fff;
+        }
+
+        .jumbotron {
+            background-color: #2ecc71;
+            color: #fff;
+        }
+
+        .card {
+            margin-bottom: 20px;
+            width: 1100px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">Apres Aldi Marwan</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+
+    <div class="jumbotron text-center">
+        <h1>GIT HUB</h1>
+        <p>Cara menginstal dan menguapload sebuah file di Git Hub.</p>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Pengertian Git Hub.</h5>
+                        <p class="card-text">GitHub adalah platform pengembangan perangkat lunak yang memfasilitasi kolaborasi, pengelolaan proyek, dan pengunggahan kode sumber. Ini adalah tempat di mana pengembang perangkat lunak, tim pengembang, dan komunitas dapat bekerja bersama untuk membuat, menguji, dan memelihara perangkat lunak.</p>
+                        <h5 class="card-title">Langkah-langkah Menginstal Git Hub.</h5>
+                        <p class="card-text">
+                            <ol>
+                                <li>Unduh instalator Git</li>
+                                <ul>
+                                    <li>Buka situs web resmi Git: https://git-scm.com/.</li>
+                                    <li>Di halaman beranda, Anda akan melihat tombol "Download for Windows". Klik tombol ini untuk mengunduh instalator Git untuk Windows.</li>
+                                </ul>
+                                <li>Jalankan Instalator</li>
+                                <ul>
+                                    <li>Setelah unduhan selesai, buka file instalator Git yang telah Anda unduh.</li>
+                                    <li>Jika muncul infomasi lisensi Git, klik Next > untuk melanjutkan.</li>
+                                    <li>Selanjutnya menentukan lokasi instalasi. Biarkan saja apa adanya, kemudian klik Next >.</li>
+                                    <li>Dalam pemilihan komoponen, biarkan saja dan lanjut klik Next >.</li>
+                                    <li>Selanjutnya pemlilihan direktori start menu, klik Next >.</li>
+                                    <li>Selanjutnya pengaturan PATH Environment. Pilih yang tengah agar perintah git dapat di kenali di Command Prompt (CMD). Setelah itu klik Next >.</li>
+                                    <li>Selanjutnya konversi line ending. Biarkan saja seperti ini, kemudian klik Next >.</li>
+                                    <li>Selanjutnya pemilihan emulator terminal. Pilih saja yang bawah, kemudian klik Next >.</li>
+                                    <li>Selanjutnya pemilihan opsi ekstra. Klik saja Next >.</li>
+                                    <li>Selanjutnya pemilihan opsi ekspreimental, langsung saja klik Install untuk memaulai instalasi.</li>
+                                    <li>Tunggu beberapa saat, instalasi sedang dilakukan. Ketika selesai maka klik finish</li>
+                                    <li>Selamat, Git sudah terinstal di Windows. Untuk mencobanya, silahkan buka CMD atau PowerShell, kemudian ketik perintah <strong>git --version</strong>.</li>
+                                </ul>
+                            </ol>
+                        </p>
+                        <h5 class="card-title">Konfigurasi Git Hub.</h5>
+                        <p class="card-text">Ada beberapa konfigurasi yang harus dupersiapakan sebelum mulai menggunakan Git, seperti name dan email. Silahkan lakukan konfigurasi dengan perintah berikut ini;</p>
+                        <ul>
+                            <li><strong>git config --global user.name "Petani Kode"</strong></li>
+                            <li><strong>git config --global user.email contoh@petanikode.com</strong></li>
+                        </ul>
+                        <p>Kemudian periksa konfigurasinya dengan perintah;</p>
+                        <ul>
+                            <li><strong>git config --list</strong></li>
+                        </ul>
+                        <p>Apabila berhasil maka akan muncul seperti dibawah. Jika sudah muncul seperti itu maka konfigurasi anda berhasil.</p>             
+                        <ul>
+                            <li><strong>user.email=Apresgode21</strong></li>
+                            <li><strong>user.name=Apres</strong></li>
+                        </ul>
+                        <h5 class="card-title">Langgkah-langkah Upload File di Git Hub.</h5>
+                        <p class="card-text">
+                            <ol>
+                                <li>Buat Repository Baru Setelah masuk ke akun Github, kamu harus membuat repository baru untuk projectmu. Klik tombol “New repository” dan isi informasi yang diperlukan seperti nama repository, deskripsi, dan pilihan privasi. Pilih opsi “Public” jika kamu ingin membagikan projectmu ke dunia, atau “Private” jika hanya ingin membagikannya ke tim tertentu.</li>
+                                <li>Upload Project ke Repository Setelah membuat repository baru, kamu dapat mulai mengupload projectmu. Ada dua cara untuk melakukan ini:
+                                    <ul>
+                                        <li>menggunakan fitur drag and drop atau menggunakan Git. Untuk metode drag and drop, kamu hanya perlu mengarahkan file-file projectmu ke area drag and drop pada halaman repository.</li>
+                                        <li>Untuk metode Git, kamu perlu menginstall Git terlebih dahulu dan mengikuti langkah-langkah berikut:
+                                            <ol>
+                                                <li>Buka terminal atau command prompt</li>
+                                                <li>Masuk ke folder projectmu dengan perintah <strong>cd [nama folder]</strong></li>
+                                                <li>Inisialisasi Git di folder tersebut dengan perintah <strong>git init</strong></li>
+                                                <li>Tambahkan file-file projectmu ke repository dengan perintah <strong>git add [nama file]</strong></li>
+                                                <li>Commit perubahan dengan perintah <strong>git commit -m [pesan commit]</strong></li>
+                                                <li>Tambahkan URL repository Github sebagai remote repository dengan perintah <strong>git remote add origin [url repository]</strong></li>
+                                                <li>Upload projectmu ke repository dengan perintah <strong>git push -u origin master</strong></li>
+                                            </ol>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>Lihat Hasil Upload Project Setelah kamu selesai mengupload projectmu, kamu dapat melihat hasilnya di halaman repository Github. Semua file dan folder yang kamu upload akan ditampilkan di sana, dan kamu juga dapat melihat histori perubahan dan mengelola file dengan fitur Github seperti pull request, branch, dan lain-lain.</li>
+                            </ol>
+                        </p>
+                        <a href="#" class="btn btn-primary">SELESAI. Terima Kasih</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
